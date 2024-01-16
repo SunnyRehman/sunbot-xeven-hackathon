@@ -47,10 +47,11 @@ Ensure you have the following prerequisites installed on your machine:
 
     Create a `.streamlit` directory and create a `secrets.toml` file inside it and add the following:
 
+    ```bash
     OPENAI_API_KEY=your_openai_api_key
     PINECONE_API_KEY=your_pinecone_api_key
     PINECONE_ENV=your_pinecone_environment
-    
+    ```
 
     Replace `your_openai_api_key`, `your_pinecone_api_key`, and `your_pinecone_environment` with your actual API keys.
 
