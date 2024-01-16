@@ -29,20 +29,17 @@ Ensure you have the following prerequisites installed on your machine:
 
 3. Create an Anaconda Environment
    
-  
     conda create -n name_of_environment python=3.9
 
 5. Activate the Conda Environment
 
-  ```bash
     conda activate name_of_environment
-    ```
+
 
 4. Install the required Python packages:
 
-    ```bash
     pip install -r requirements.txt
-    ```
+
 
 ## Configuration
 
@@ -50,11 +47,10 @@ Ensure you have the following prerequisites installed on your machine:
 
     Create a `.streamlit` directory and create a `secrets.toml` file inside it and add the following:
 
-    ```dotenv
     OPENAI_API_KEY=your_openai_api_key
     PINECONE_API_KEY=your_pinecone_api_key
     PINECONE_ENV=your_pinecone_environment
-    ```
+    
 
     Replace `your_openai_api_key`, `your_pinecone_api_key`, and `your_pinecone_environment` with your actual API keys.
 
@@ -62,9 +58,7 @@ Ensure you have the following prerequisites installed on your machine:
 
 1. Execute the following command to start the chatbot:
 
-    ```bash
     streamlit run app.py
-    ```
 
 2. Open your web browser and navigate to http://localhost:8501
 
