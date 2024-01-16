@@ -28,9 +28,10 @@ Ensure you have the following prerequisites installed on your machine:
     ```
 
 3. Create an Anaconda Environment
-    ```bash
+   
+  
     conda create -n name_of_environment python=3.9
-    ```
+
 5. Activate the Conda Environment
 
   ```bash
